@@ -104,6 +104,10 @@ nav ul li:hover {
     background-image: url("../images/plaque_hover.png");
 }
 
+#demon_plaque {
+    background-image: url("../images/demon_plaque.png");
+}
+
 nav ul li:hover > a {
     color: white;
 }

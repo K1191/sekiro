@@ -69,8 +69,13 @@ nav ul {
     box-shadow: 1px 1px 1vw black;
 }
 
+#demon_plaque {
+    background-image: url("../images/demon_plaque.png");
+}
+
 nav ul li {
 
+    color: lightgray;
     list-style: none;
 
     background-image: url("../images/plaque.png");

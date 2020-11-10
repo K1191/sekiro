@@ -35,7 +35,7 @@
                 <ul>
                     <li><a href="index.html">Accueil</a></li>
                     <li><a href="genichiro.html">Genichiro Ashina</a></li>
-                    <li><a href="demon.html">Démon de la haine</a></li>
+                    <li id="demon_plaque"><a href="demon.html">Démon de la haine</a></li>
                     <li><a href="owl.html">La Chouette</a></li>
                     <li><a href="isshin.html">Isshin Ashina</a></li>
                 </ul>
@@ -51,7 +51,6 @@
                         <div id="index_banniere"></div>
                     </div>
                 </div>
-
             </div>
 
         </main>
