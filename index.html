@@ -6,9 +6,10 @@
 
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/master.css">
         <link rel="icon" href="images/icone.png">
-        <title>La Chouette</title>
+        <title>• Accueil •</title>
+
+        <link rel="stylesheet" href="css/master_index.css">
 
     </head>
 
@@ -16,10 +17,11 @@
 
         <div id="background"></div>
 
-        <div id="panneaux">
-            <div id="fondu_gauche"></div>
-            <div id="fondu_droit"></div>
-        </div>
+        <div id="fondu_gauche"></div>
+        <div id="poussiere_gauche"></div>
+        
+        <div id="fondu_droit"></div>
+        <div id="poussiere_droite"></div>
             
         <header>
             
@@ -31,35 +33,25 @@
         
             <nav>
                 <ul>
-                    <li><a href="#">Accueil</a></li>
-                    <li><a href="#">Genichiro Ashina</a></li>
-                    <li><a href="#">Démon de la haine</a></li>
-                    <li><a href="#">La Chouette</a></li>
-                    <li><a href="#">Isshin Ashina</a></li>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="genichiro.html">Genichiro Ashina</a></li>
+                    <li><a href="demon.html">Démon de la haine</a></li>
+                    <li><a href="owl.html">La Chouette</a></li>
+                    <li><a href="isshin.html">Isshin Ashina</a></li>
                 </ul>
             </nav>
         </header>
 
         <main>
 
-            <div id="panneau_portrait">
-                <img id="portrait" src="images/foster_father.png" title="La Chouette">
-                <img id="banniere" src="images/banner2.png" title="La Chouette (Père adoptif)">
-            </div>
-
             <div id="panneau">
                 <div id="texte_panneau">
                     <div id="fond_papier">
-                        <p>La Chouette, de son vrai nom Ukonzaemon Usui (薄井 右近左衛門), est un maître shinobi à la noblesse et à l'expérience incroyable. Il adopta un orphelin, séparé de sa famille lors du terrible conflit qui opposa le clan Ashina au clan Tamura. Peu de temps après, Usui devint un mentor pour le jeune garçon, et l'éduqua selon la voie shinobi.</p>
-                        <p>Présumé mort depuis l'attaque du domaine Hirata, Usui ne reparaîtra que trois ans plus tard, où il exigera de son fils adoptif qu'il trahisse son nouveau maître.</p>
-                        <div id="citation">
-                            <p>"Un! Le parent doit être obéi. Leur volonté doit être obéie."</p>
-                            <p>Ukonzaemon Usui</p>
-                        </div>
+                        <p><span class="italique">Sekiro : Shadows Die Twice</span>&trade; est un jeu développé par le studio FROM SOFTWARE, sorti en mars 2019. Le jeu se déroule dans un Japon médiéval-fantastique durant l'époque Sengoku. Il est inspiré de la trilogie Dark Souls, Demon's Souls ou encore Bloodborne de par le gameplay et les mécaniques de combats (source : <a href="https://fr.wikipedia.org/wiki/Sekiro:_Shadows_Die_Twice">Wikipedia</a>). Ce petit site a pour but de revenir sur les ennemis les plus emblématiques du jeu, qui jalonnent le chemin de Loup tout au long de son voyage.</p>
+                        <div id="index_banniere"></div>
                     </div>
                 </div>
 
-                <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/597902607&color=%23948c8c&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
             </div>
 
         </main>
