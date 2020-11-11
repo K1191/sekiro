@@ -36,7 +36,7 @@ header {
 
 #chaine {
     position: relative;
-    z-index: -5;
+    z-index: 4;
 
     background-image: url("../images/chaine.png");
     background-position: center;
@@ -49,7 +49,7 @@ header {
 }
 
 nav {
-    z-index: 0;
+    z-index: 5;
 }
 
 nav ul {
@@ -159,7 +159,7 @@ main {
 }
 
 #background {
-    background: url("../images/owl.png"); 
+    background: url("../images/bg_html.jpg"); 
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -168,8 +168,70 @@ main {
     left: 0;
     filter: blur(5px);
     transform: scale(1.2);
-    z-index: -5;
+    z-index: -6;
 }
+
+#pluie {
+    z-index: 0;
+    position: absolute;
+    background: url("../images/rain.png"); 
+    height: 120vh;
+    width: 100vw;
+    animation: pluie .3s linear infinite;
+}
+
+#eclair {
+    z-index: -4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 120vh;
+    width: 100vw;
+    background-color: rgb(255, 250, 225);
+    animation: eclair 10s linear infinite;
+    opacity: 0;
+}
+
+@keyframes pluie {
+    from {
+        background-position: 0%;
+    }
+
+    to {
+        background-position: 20% 100%;
+    }
+}
+
+@keyframes eclair {
+    1% {
+        opacity: 0;
+    }
+    14% {
+        opacity: 0;
+    }
+    15% {
+        opacity: 1;
+    }
+    16% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 0;
+    }
+    61% {
+        opacity: 1;
+    }
+    62% {
+        opacity: 0;
+    }
+    63% {
+        opacity: 1;
+    }
+    64% {
+        opacity: 0;
+    }
+}
+
 
 #fondu_gauche {
 
@@ -236,7 +298,6 @@ main {
 main {
     display: flex;
     justify-content: center;
-    flex-direction: row-reverse;
 }
 
 @media screen and (max-width: 992px) {
@@ -248,37 +309,27 @@ main {
 
 /* Création de la flexbox contenant le portrait */
 
-#portrait {
-    position: relative;
-    z-index: 10;
-
-    width: 220px;
-    height: 220px;
+#div_fantome {
+    width: 450px;
 }
 
-#panneau_portrait {
+/* Image Isshin */
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-
-    height: 180px;
-    width: 180px;
-
-    margin: 0 0 0 20px;
-
-    background: url("../images/wood_bg.jpg") repeat;
-    background-color: gray;
-    background-blend-mode: multiply;
-    background-size: 500px;
-
-    text-align: justify;
-    box-shadow: 1px 1px 1vw black;
+#isshin {
+    position: absolute;
+    z-index: 0;
     
-    border: 30px transparent solid;
-    border-image: url("../images/bordure.png") 84 round;
-    border-radius: .5rem;
+    top: 200px;
+    margin-right: 1400px;
+
+    height: 950px;
+    width: 1450px;
+
+    background: url("../images/isshin.png");
+    background-position: center;
+    background-size: cover;
+    filter: drop-shadow(0px 0px 10px black);
+
 }
 
 #banniere {
